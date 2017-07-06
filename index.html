@@ -8,26 +8,30 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <header>
-          <div class="direction-buttons">
-            <img class="next-page" src="Images/next.png" alt="next page button" width="20" height="20">
-          </div>
+      <div class="current Front-page">
 
-            <h1>My Projects</h1>
-            <nav class="contact-links">
-                <ul class="contact-link-parent">
-                    <li class="contact-link contact-link-email"><a href="mailto:jrandomhacker@example.com">Email</a>
-                    <li class="contact-link contact-link-linkedin"><a href="https://www.linkedin.com">LinkedIn</a>
-                    <li class="contact-link contact-link-github"><a href="https://www.github.com">GitHub</a>
-                </ul>
-            </nav>
-            <img class="headshot" src="http://unsplash.it/150/150"
-                alt="J. Random Hacker headshot">
-            <h2> By: Patrice White</h2>
+        <div class="direction-buttons">
+          <img class="next-page" src="Images/next.png" alt="next page button" width="20" height="20">
+        </div>
 
-            <p class="about" id="about">
+          <h1>My Projects</h1>
+          <nav class="contact-links">
+              <ul class="contact-link-parent">
+                  <li class="contact-link contact-link-email"><a href="mailto:jrandomhacker@example.com">Email</a>
+                  <li class="contact-link contact-link-linkedin"><a href="https://www.linkedin.com">LinkedIn</a>
+                  <li class="contact-link contact-link-github"><a href="https://www.github.com">GitHub</a>
+              </ul>
+          </nav>
+          <h2> By: Patrice White</h2>
+        </div>
+        <div class="about">
+          <img class="headshot" src="http://unsplash.it/150/150"
+              alt="J. Random Hacker headshot">
+            <p>
                 Hi, I'm J. Random Hacker, a full-stack web developer from Nowheresville, USA.  I use React and Node.js to build web apps which leave you with a minty fresh taste in your mouth.  Outside of coding I enjoy watching <a href="https://www.youtube.com/watch?v=6SFNW5F8K9Y">this video</a> on repeat.
             </p>
+        </div>
+        <div class="table-contents">
             <nav class="main-nav">
                 <ul >
                     <li class="main-nav-link"><a href="#about">About me</a></li>
@@ -35,7 +39,7 @@
                     <li class="main-nav-link"><a href="#contact">Contact me</a></li>
                 </ul>
             </nav>
-        </header>
+        </div>
         <section class="work" id="work">
             <h2>My work</h2>
             <section class="project">
@@ -155,7 +159,7 @@
                 </nav>
             </section>
         </section>
-        <section class="contact" id="contact">
+        <section class="contact " id="contact">
             <h3>Contact me</h3>
             <form action="https://formspree.io/jrandomhacker@example.com"
                   method="POST">
@@ -168,5 +172,9 @@
                 <input type="submit" value="Send message">
             </form>
         </section>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+      <script type="text/javascript" src="app.js"></script>
     </body>
 </html>

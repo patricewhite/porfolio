@@ -14,6 +14,7 @@ h1, h2 {
   font-family: 'Cherry Swash', cursive;
   padding-left: 25px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .contact-link-parent {
@@ -46,6 +47,18 @@ ul{
   list-style: none;
 }
 
+.Front-page{
+  display: none;
+}
+
+.current{
+  display: block;
+}
+
+section{
+  display: none;
+}
+
 .work{
   display: none;
 }
@@ -55,6 +68,9 @@ ul{
 }
 
 .about{
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 30px;
   display: none;
 }
 
