@@ -5,6 +5,7 @@
 //     $('.Front-page').toggleClass('current');
 //   });
 // });
+
 let app;
 $(function() {
   app = {
