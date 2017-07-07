@@ -30,7 +30,7 @@ h1, h2 {
 
 .next-page{
   position: absolute;
-  margin-top: 75%;
+  margin-top: 25%;
   right: 0px;
 }
 
@@ -48,44 +48,18 @@ ul{
 }
 
 .Front-page{
-  display: none;
-}
-
-.current{
   display: block;
 }
 
-section{
+.inactive{
   display: none;
-}
-
-.work{
-  display: none;
-}
-
-.contact{
-  diaplay: none;
 }
 
 .about{
   margin-top: 20px;
   text-align: left;
   margin-left: 30px;
-  display: none;
 }
-
-.main-nav{
-  display: none;
-}
-
-h3{
-  display: none;
-}
-form{
-  display: none;
-}
-
-
 
 @media (max-width: 576px){
   .hide-when-small{
