@@ -3,11 +3,11 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Montserrat', sans-serif;
   background-image: url("Images/bookCover.png");
   background-repeat: no-repeat;
+  font-size: 16px;
+
 }
 
 h1, h2 {
@@ -53,11 +53,14 @@ ul{
 .about{
   margin-top: 20px;
   text-align: left;
-  margin-left: 30px;
+}
+
+.table-contents-title{
+  padding-bottom: 20px;
 }
 
 .table-contents{
-  padding-top: 30px;
+  padding-top: 50px;
 }
  .main-nav-link{
    text-align: center;
@@ -72,11 +75,7 @@ ul{
    text-align: center;
  }
 
- form{
-   margin-left: 30px;
- }
  input[type=text]{
-   width: 95%;
    padding: 12px 20px;
    margin: 8px 0;
    display: inline-block;
@@ -85,7 +84,6 @@ ul{
  }
 
  input[type=email]{
-   width: 95%;
    padding: 12px 20px;
    margin: 8px 0;
    display: inline-block;
@@ -94,7 +92,6 @@ ul{
  }
 
  textarea {
-    width: 95%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -112,16 +109,27 @@ ul{
     cursor: pointer;
 }
 
+.contact-links{
+  position: absolute;
+  bottom: 30px;
+}
 @media (max-width: 576px){
-  .contact-links{
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
+  body{
+    margin: 0;
+    padding: 0;
   }
 
   h1, h2 {
     padding-left: 25px;
     margin-top: 50px;
+  }
+
+  .contact-links{
+      width: 100%;
+  }
+
+  .about{
+    margin-left: 30px;
   }
 
   .next-page{
@@ -134,8 +142,89 @@ ul{
     left: 25px;
   }
 
+  form{
+    margin-left: 30px;
+  }
+
+  input[type=text]{
+    width: 95%;
+  }
+
+  input[type=email]{
+    width: 95%;
+  }
+
+  textarea {
+    width: 95%;
+  }
+
 }
 
 @media(min-width: 720px){
+  body {
+    background-image: none;
+  }
+  .container {
+    background-image: url("Images/bookCover.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 75%;
+    background-color: #182E32;
+    background-blend-mode: multiply;
+    margin: 0 auto;
+    color: #68C3D4;
+  }
+
+  h1, h2 {
+    padding-top: 15%;
+  }
+
+
+  .contact-links{
+      width: 75%;
+  }
+
+  .about{
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .project{
+    padding-top: 5%;
+  }
+
+  .contact{
+    padding-top: 5%;
+  }
+
+  form{
+    margin-left: 10%;
+  }
+
+  input[type=text]{
+    width: 95%;
+  }
+
+  input[type=email]{
+    width: 95%;
+  }
+
+  textarea {
+    width: 95%;
+  }
+
+  .next-page{
+    margin-bottom: 50px;
+    right: 15%;
+    margin-top: 10px;
+  }
+
+  .prev-page{
+    margin-bottom: 40px;
+    left: 15%;
+    margin-top: 10px;
+  }
 
 }
